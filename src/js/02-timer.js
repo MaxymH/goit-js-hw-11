@@ -80,7 +80,7 @@ function addEm(timer = { days: 0, hours: 0, minutes: 0, seconds: 0 }) {
     nav[3].textContent = `${timer.seconds}`.padStart(2, 0);
 }
 
-
+// f
 
 button.addEventListener('click', startTimer)
 
